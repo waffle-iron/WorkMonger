@@ -1,0 +1,24 @@
+.menu
+{
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: '#808080';
+}
+
+.menu-item
+{
+	margin-left    : calc(var(--unit) * 6);
+	margin-right   : calc(var(--unit) * 6);
+	
+	margin: 10px;
+	color: white;
+	border-bottom-width : 0.12em;
+	border-bottom-color : transparent;
+	border-bottom-style : solid;
+}
+
+.menu-item-selected
+{
+	border-bottom-color : var(--base-color);
+}
